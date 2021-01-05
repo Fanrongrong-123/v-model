@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="red">
     <input :value="value" @input="onInput" />
   </div>
 </template>
@@ -20,3 +20,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.red {
+  display: inline-block;
+  background: red;
+}
+</style>
